@@ -1,0 +1,23 @@
+Source: golang-github-gorilla-schema
+Section: devel
+Priority: extra
+Maintainer: struktur AG <opensource@struktur.de>
+Uploaders: Simon Eisenmann <simon@struktur.de>
+Build-Depends:
+ debhelper (>= 9),
+ dh-golang, 
+ golang-go
+Standards-Version: 3.9.6
+Homepage: https://github.com/gorilla/schema
+
+Package: golang-github-gorilla-schema-dev
+Architecture: all
+Depends: 
+ golang-go,
+ ${misc:Depends},
+ ${shlibs:Depends}
+Conflicts: golang-schema-dev
+Provides: golang-schema-dev
+Replaces: golang-schema-dev
+Description: Form value parser for golang.
+ Package gorilla/schema fills a struct with form values.

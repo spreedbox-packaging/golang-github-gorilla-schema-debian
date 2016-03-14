@@ -1,0 +1,5 @@
+golang-github-gorilla-schema (0.0~git20150814.0.f7b6aaa-1) unstable; urgency=medium
+
+  * Initial release.
+
+ -- Simon Eisenmann <simon@struktur.de>  Mon, 14 Mar 2016 16:37:58 +0100
